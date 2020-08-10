@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <h2> Click a tile to start the game</h2>
+    <table>
+        <tr>
+            <td onclick="clicked(this,0,0)"></td>
+            <td onclick="clicked(this,0,1)"></td>
+            <td onclick="clicked(this,0,2)"></td>
+        </tr>
+        <tr>
+            <td onclick="clicked(this,1,0)"></td>
+            <td onclick="clicked(this,1,1)"></td>
+            <td onclick="clicked(this,1,2)"></td>
+        </tr>
+        <tr>
+            <td onclick="clicked(this,2,0)"></td>
+            <td onclick="clicked(this,2,1)"></td>
+            <td onclick="clicked(this,2,2)"></td>
+        </tr>
+
+    </table>
+    <p id="winner"></p>    
+    <button onclick="resetGame()">RESET</button>
+</body>
+</html>
