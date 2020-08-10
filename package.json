@@ -1,0 +1,24 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravindrockzs/tic-tac-toe.git"
+  },
+  "homepage":"https://www.aravindrockzs.github.io/tictactoe",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravindrockzs/tic-tac-toe/issues"
+  },
+
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
